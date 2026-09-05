@@ -10,7 +10,7 @@ class MessageSchema(Schema):
 
 @api.get("/hello")
 def hello(request):
-    return {"message": "Hello from Django Ninja"}
+    return {"message": "Hello from Django Ninja. what can we do for you"}
 
 
 @api.post("/message")
